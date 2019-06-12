@@ -94,8 +94,8 @@ public class DetailActivity extends AppCompatActivity {
 
         Picasso.with(this)
                 .load(sandwich.getImage())
-                .placeholder(R.mipmap.ic_launcher)
-                .error(R.mipmap.ic_launcher)
+                .placeholder(R.drawable.img_not_available)
+                .error(R.drawable.img_not_available)
                 .into(mSandwichImageView);
 
 
